@@ -1,0 +1,79 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run the `open default settings` command
+// from the command palette or from `Zed` application menu.
+{
+  //Base view
+  "icon_theme": "Material Icon Theme",
+  "project_panel": {
+    "dock": "right"
+  },
+
+  "notification_panel": {
+    "dock": "left"
+  },
+  "chat_panel": {
+    "dock": "left"
+  },
+  "outline_panel": {
+    "dock": "right"
+  },
+
+  // Editor setting
+  // "base_keymap": "JetBrains",
+  "formatter": "auto",
+
+  "confirm_quit": true,
+  "inlay_hints": {
+    "enabled": true
+  },
+  "tab_size": 2,
+  "autosave": "on_focus_change",
+
+  // Telemetry
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false
+  },
+
+  // Theme setting
+  "theme": {
+    "mode": "system",
+    "dark": "One Dark Pro",
+    "light": "One Light"
+  },
+  "buffer_font_family": "JetBrains Mono",
+  "buffer_font_features": {
+    "calt": false
+  },
+  "ui_font_size": 16,
+  "buffer_font_size": 16,
+
+  //VIM setting
+  // "vim_mode": false,
+
+  // Terminal setting
+  "terminal": {
+    "font_family": "MesloLGS NF",
+    "dock": "bottom"
+  },
+
+  // Dependency setting
+  "auto_install_extensions": {
+    "one-dark-pro": true,
+    "git-firefly": true,
+    "material-icon-theme": true
+  },
+
+  "assistant": {
+    "default_model": {
+      "provider": "copilot_chat",
+      "model": "gpt-4o"
+    },
+    "version": "2"
+  }
+}

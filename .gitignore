@@ -1,0 +1,7 @@
+# Ignore everything
+*
+
+# Except the following files
+!keymap.json
+!settings.json
+!.gitignore
