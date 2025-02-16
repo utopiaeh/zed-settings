@@ -56,7 +56,8 @@
       "cmd-home": "editor::MoveToBeginning",
       "cmd-end": "editor::MoveToEnd",
       "cmd-shift-home": "editor::SelectToBeginning",
-      "cmd-shift-end": "editor::SelectToEnd"
+      "cmd-shift-end": "editor::SelectToEnd",
+      "cmd-alt-r": "editor::Rename"
     }
   },
   {
